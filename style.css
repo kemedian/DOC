@@ -1,0 +1,141 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.docplanner-logo {
+    width: 268px;
+    height: 33px;
+    margin-left: 280px;
+}
+header {
+    position: sticky;
+    top: 10px;
+    background: hsla(0,0%,100%,.98);
+    padding-bottom: 5px;
+}
+nav {
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+ul a {
+    text-decoration: none;
+}
+
+a li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    margin-left: 430px;
+    gap: 22px;
+}
+
+.about {
+    color: #00b39b;
+}
+.careers {
+    color: #ababab;
+}
+.departments {
+    color: #ababab; 
+}
+.dropdown-contents {
+display: none;
+}
+ .departments:hover + .dropdown-contents ul a{
+    display: block;
+    color: red;
+} 
+.small-logo {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.making {
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    text-align: center;  
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.first-paragraph {
+    display: flex;
+    color: #ababab; 
+    font-size: 16px;
+    justify-content: center;
+    line-height: 22px;
+}
+
+.doctors {
+margin-left: 40px;
+
+}
+
+.card {
+    margin-bottom: 25px;
+   margin-top: 80px;
+  
+}
+.card .card-body {
+    padding: 30px;
+}
+.card-body {
+    background-color:#00b39b ;
+    border: none;
+    text-align: left;
+}
+.second-card {
+    background-color: #3d83df;
+    border: none;
+    text-align: left;
+}
+.third-card {
+    background-color: #1b2734;
+    border: none;
+    text-align: left; 
+}
+.card-body .card-title {
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+    border-radius: 40px;
+}
+.patient-image {
+    margin-bottom: 20px;
+}
+.card-text {
+    color: white;
+    font-size: 23px;
+}
+#country {
+    background: none;
+    color: white;
+    border: none;
+    font-size: 23px;
+    text-decoration: underline;
+}
+#specialists {
+    background: none;
+    color: white;
+    border: none;
+    font-size: 23px;  
+    text-decoration: underline; 
+}
+.cards {
+    display: flex;
+    justify-content: center;
+   gap: 32px;
+    
+}
